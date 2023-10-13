@@ -19,9 +19,9 @@ public class UserModel {
     private UUID id;
 
     @Column(unique = true)
-    public String username;
-    public String name;
-    public String password;
+    private String username;
+    private String name;
+    private String password;
 
     @CreationTimestamp
     private LocalDateTime createdAt;
