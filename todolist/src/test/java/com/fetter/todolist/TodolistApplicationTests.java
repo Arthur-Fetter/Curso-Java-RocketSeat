@@ -1,4 +1,4 @@
-package com.arthur.todolist;
+package com.fetter.todolist;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -8,6 +8,7 @@ class TodolistApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
 
 }
